@@ -1,0 +1,184 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+}
+
+.navbar-inverse{
+    border: none;
+    background: rgba(0, 0, 0, 0.74);
+}
+
+.navbar-inverse .navbar-toggle{
+    border-color: white;
+    color: white;
+}
+
+.navbar-inverse .navbar-toggle i{
+    font-size: 20px;
+}
+
+.navbar-inverse .navbar-toggle:hover{
+    background: white;
+    color: black;
+}
+
+.navbar-inverse .navbar-toggle:focus{
+    background: white;
+    color: black;
+}
+
+.navbar-inverse a{
+    margin-left: 120px;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+    transition: color 0.5s;
+}
+
+.navbar-inverse .navbar-brand:hover{
+    color: grey;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+    transition: color 0.5s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: grey;
+}
+
+
+
+.container .iphone{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 900px;
+}
+
+.container .margin-div{
+    margin-top: 100px;
+    background: #f2f2f2;
+}
+
+.margin-div h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.margin-div a{
+    text-align: center;
+}
+
+.margin-div p{
+    font-size: 30px;
+}
+
+.margin-div p>a{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.ipad-section{
+    margin-top: 150px;
+    width: 100%;
+    height: 1100px;
+    background: #fff;
+}
+
+.container .margin-div-section{
+    margin-top: 100px;
+    background: #fff;
+}
+
+.margin-div-section h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.margin-div-section a{
+    text-align: center;
+}
+
+.margin-div-section p{
+    font-size: 30px;
+}
+
+.margin-div-section p>a{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.margin-div-section .ipad{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 700px;
+}
+
+.macbook-section{
+    width: 100%;
+    height: 750px;
+    background: #121117;
+
+}
+
+.container .margin-div-section-macbook{
+    background: #121117;
+    margin-top: 100px;
+}
+
+.margin-div-section-macbook .macbook{
+    margin: 0 auto;
+    width: 1500px;
+    margin-top: 60px;
+}
+
+.margin-div-section-macbook h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+.margin-div-section-macbook a{
+    text-align: center;
+}
+
+.margin-div-section-macbook p{
+    font-size: 30px;
+    color: white
+}
+
+.margin-div-section-macbook p>a{
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+}
+
+.section-shop{
+    width: 100%;
+    background: #fff;
+    padding: 15px 10px;
+}
+
+.img-row{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.section-shop{
+    background-image: url('../img/shop.jpg');
+    width: 400;
+    height: 500px;
+}
+
+.div-iphone8{
+    background: #f9f0eb;
+    width: 650px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+

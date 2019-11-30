@@ -1,0 +1,250 @@
+*{
+    transition: all 0.5s;
+}
+#uph{
+display:block;
+background-color:#000000;
+width:100%;
+position:sticky;
+top:0px;
+left:0px;
+z-index: 1;
+}
+
+#uph img{
+    display: block;
+    margin:auto;
+}
+
+body{
+margin:0px;
+padding:0px;
+background:rgba(242,242,242,0.7);
+}
+
+
+
+
+span{
+font-weight:bold;
+}
+div.lineHeight{
+text-decoration:none;
+line-height:1.5em;
+color:black;
+
+background:white;
+padding:10px;
+margin-left:225px;
+font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+div ul{
+background:white;
+padding-left:15px;
+}
+
+
+.apple{
+display:inline;
+float:left;
+padding-right:25px;
+}
+
+h1{
+color:#000000;
+font-weight:bold;
+text-align:center;
+font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+
+#bezel
+{
+float:left;
+display:inline;
+margin-left:12px;
+text-align:center;
+background-image: linear-gradient(to bottom,rgb(224, 43, 209) 30%,rgb(3, 34, 136) 70%);
+height:370px;
+width:175px;
+border:10px solid black;
+border-radius:25px;
+font-family:Helvetica Neue,Arial,sans-serif;
+color:white;
+}
+
+#notch{
+border:13px solid black;
+
+width:5.5em;
+display:block;
+margin-left:auto;
+margin-right:auto;
+margin-top:-115px;
+border-bottom-left-radius:14px;
+border-bottom-right-radius:14px;
+border-top-left-radius:8px;
+border-top-right-radius:8px;
+}
+
+img.unlock{
+padding-top:5px;
+padding-left:14px;
+}
+
+
+
+div.time{
+font-size:35px;
+font-weight:normal;
+}
+
+div.date{
+font-size:11px;
+font-weight:light;
+}
+img.widget{
+position:relative;
+padding-top:260px;
+
+}
+
+
+div.pull{
+border:1.8px solid gray;
+width:80px;
+display:block;
+position:relative;
+margin-left:auto;
+margin-right:auto;
+z-index:0;
+margin-top:180%;
+}
+
+
+#mh{
+
+display:block;
+margin:auto;
+padding:12px;
+top:20px;
+}
+
+#mh img{
+    display: block;
+    margin:auto;
+    height: 50%;
+    width: 50%;
+    transition: all 1s;
+}
+
+#mh img:hover{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+div.box{
+border:10px solid black;
+display:inline-block;
+position:relative;
+top:60px;
+left:30px;
+width:200px;
+height:200px;
+background:#000000;
+
+border-radius:35px;
+}
+
+div.earphones{
+border:1px solid black;
+display:inline-block;
+position:relative;
+left:200px;
+top:-60px;
+height:155px;
+width:15px;
+background:black;
+border-radius:15px;
+}
+
+div.buds{
+border:1px solid black;
+background:black;
+display:inline-block;
+height:70px;
+position:relative;
+top:-20px;
+left:-1.5px;
+border-top-right-radius:35px;
+border-bottom-right-radius:45px;
+border-top-left-radius:35px;
+border-bottom-left-radius:35px;
+
+width:70px;
+
+}
+
+div.earphones2{
+border:1px solid black;
+display:inline-block;
+position:relative;
+left:150px;
+top:-60px;
+height:155px;
+width:15px;
+background:black;
+border-radius:15px;
+}
+
+div.buds2{
+border:1px solid black;
+background:black;
+display:inline-block;
+height:70px;
+position:relative;
+top:-20px;
+left:-56px;
+border-top-right-radius:35px;
+border-bottom-right-radius:35px;
+border-top-left-radius:35px;
+border-bottom-left-radius:45px;
+
+width:70px;
+
+}
+div.title{
+    position: relative;
+    float:right;
+}
+.title h1.airpods{
+
+position: relative;
+right:15px;
+
+top:-10px;
+font-weight:bolder;
+font-size:40px;
+}
+
+.title h2.airpods{
+position: absolute;
+right:15px;
+top:50px;
+
+font-size:35px;
+font-family:Helvetica Neue,Arial,sans-serif;
+}
+
+p.airpods_desc{
+display:block;
+padding:15px;
+background:#ffffff;
+line-height:1.5em;
+clear: both;
+font-family:Helvetica Neue,Arial,sans-serif;
+}
