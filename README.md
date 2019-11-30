@@ -1,6 +1,6 @@
 # productPage
 
-Product page design
+Product page design<br/>
 Product showcase themed website taking apple's products as an instance
   
   
