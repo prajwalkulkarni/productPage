@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$connection = mysqli_connect('localhost','root','','support');
+$connection = mysqli_connect('localhost','root','','<DB_NAME>');
 $timezone = date_default_timezone_set("Asia/Kolkata");
 $username = "";
 $email    = "";
