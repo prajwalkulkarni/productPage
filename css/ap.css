@@ -1,0 +1,288 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+  
+  *, *::before, *::after {
+    box-sizing: border-box; }
+
+    #uph{
+        display:block;
+        background-color:#000000;
+        width:100%;
+        position:sticky;
+        top:0px;
+        left:0px;
+        z-index: 1;
+        }
+        
+       
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+     }
+  
+img.logo{
+        display: block;
+        margin:auto;
+}
+  .container-fluid, .row {
+    margin: 0;
+    padding: 0; }
+  
+  nav {
+    position: absolute;
+    height: 44px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: inline-block;
+    line-height: 44px;
+    z-index: 100;
+    white-space: nowrap;
+    overflow: hidden; }
+    @media only screen and (max-width: 768px) {
+      nav {
+        height: 48px; } }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 0;
+      text-align: center;
+      height: 44px; }
+      @media only screen and (max-width: 768px) {
+        nav ul {
+          display: none; } }
+      nav ul li {
+        display: inline-block;
+        font-size: 14px;
+        margin-left: 77px;
+        letter-spacing: .1px;
+        height: 44px;
+        top: 0;
+        vertical-align: middle;
+        cursor: pointer; }
+        nav ul li:first-child {
+          margin-left: 0;
+          font-size: 20px;
+          line-height: 44px; }
+        @media only screen and (max-width: 1024px) {
+          nav ul li {
+            margin-left: 50px; } }
+      nav ul #searchIcon {
+        width: 20px;
+        height: 44px;
+        display: inline-block;
+        background: url("http://www.apple.com/ac/globalnav/3/en_US/images/globalnav/search/image_large.svg");
+        background-repeat: no-repeat;
+        background-size: 16px 44px;
+        background-position: center center; }
+      nav ul #shoppingBag {
+        width: 20px;
+        height: 44px;
+        display: inline-block;
+        background: url("http://www.apple.com/ac/globalnav/3/en_US/images/globalnav/bag/image_large.svg");
+        background-repeat: no-repeat;
+        background-size: 16px 44px;
+        background-position: center center; }
+  
+  .mobileNav {
+    position: absolute;
+    width: 100%;
+    height: 44px;
+    top: 0;
+    display: none; }
+    @media only screen and (max-width: 768px) {
+      .mobileNav {
+        display: inline-block; } }
+    .mobileNav .fa-bars {
+      position: absolute;
+      font-size: 20px;
+      left: 0;
+      display: inline-block;
+      width: 48px;
+      height: 48px;
+      color: white;
+      cursor: pointer;
+      line-height: 44px; }
+      .mobileNav .fa-bars:hover {
+        text-decoration: none; }
+    .mobileNav .fa-apple {
+      position: absolute;
+      left: 50%;
+      font-size: 20px;
+      margin-left: -5px;
+      color: white;
+      cursor: pointer;
+      line-height: 44px; }
+      .mobileNav .fa-apple:hover {
+        text-decoration: none; }
+    .mobileNav #shoppingBag {
+      position: absolute;
+      right: 10px;
+      cursor: pointer;
+      background-size: 18px 48px; }
+  
+  #transparentWrap {
+    width: 100%;
+    height: 706px;
+    position: relative; }
+  
+  #slideContainer {
+    position: absolute;
+    width: 100%;
+    height: 706px;
+    top: 0;
+    overflow: hidden; }
+  
+  #sliderWrap {
+    width: 100%;
+    height: 706px;
+    cursor: pointer; }
+    #sliderWrap .slideOne {
+      position: absolute;
+      width: 100%;
+      height: 706px;
+       }
+      #sliderWrap .slideOne .titleWrap {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 80px;
+        text-align: center;
+        color: black; }
+        #sliderWrap .slideOne .titleWrap span {
+          font-size: 11px;
+          border: 1px solid white;
+          border-radius: 4px;
+          padding: 5px 8px 5px 8px;
+          letter-spacing: .7px; }
+        #sliderWrap .slideOne .titleWrap h1 {
+          font-size: 31px;
+          letter-spacing: 1px;
+          margin: 30px -7px 0 0; }
+        #sliderWrap .slideOne .titleWrap h2 {
+          display: inline-block;
+          width: 100%;
+          vertical-align: middle;
+          margin-top: 0;
+          font-size: 42px;
+          line-height: 80px; }
+         
+      #sliderWrap .slideOne .iphoneWrapper {
+        position: absolute;
+        bottom: 0;
+        width: 97%;
+        height: 480px;
+        z-index: 100;
+        overflow: hidden;
+        background-image: url("img/airpods.jpg");
+        background-repeat: no-repeat;
+        background-position: top center; }
+        @media only screen and (max-width: 480px) {
+          #sliderWrap .slideOne .iphoneWrapper {
+            left: 10px;
+            height: 428px;
+            background-image: url("img/airpods.jpg");
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            background-position: bottom left; } }
+    #sliderWrap .slideTwo {
+      position: absolute;
+      background: #f2f2f2;
+      width: 100%;
+      height: 706px;
+      transform: translate3d(100%, 0px, 0px); }
+      #sliderWrap .slideTwo .titleWrap {
+        position: absolute;
+        top: 11%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        z-index: 100; }
+
+        #sliderWrap .slideTwo .titleWrap .logo {
+          width: 400px;
+          height: 50px;
+          margin: 0 auto;
+         
+          background-repeat: no-repeat;
+          background-size: 122px 44px;
+          background-position: center center; }
+          @media only screen and (max-width: 480px) {
+            #sliderWrap .slideTwo .titleWrap .logo {
+              width: 300px;
+              margin-top: 40px; } }
+        #sliderWrap .slideTwo .titleWrap h1 {
+          font-size: 45px;
+          font-weight: bold;
+          margin-top: 5px;
+          margin-right: -10px; }
+          @media only screen and (max-width: 480px) {
+            #sliderWrap .slideTwo .titleWrap h1 {
+              font-size: 36px;
+              margin-top: 15px; } }
+      #sliderWrap .slideTwo .watchWrap {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        transform: translateY(5%);
+        z-index: -1;
+       
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top center; }
+        @media only screen and (max-width: 480px) {
+          #sliderWrap .slideTwo .watchWrap {
+            background-position: center center; } }
+    #sliderWrap .slideThree {
+      position: absolute;
+      background: #fafafa;
+      width: 100%;
+      height: 706px;
+      transform: translate3d(200%, 0px, 0px); }
+      #sliderWrap .slideThree .titleWrap {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        top: 12%; }
+        @media only screen and (max-width: 480px) {
+          #sliderWrap .slideThree .titleWrap {
+            top: 20%; } }
+        #sliderWrap .slideThree .titleWrap h1 {
+          font-size: 30px;
+          margin-bottom: 5px; }
+        #sliderWrap .slideThree .titleWrap h2 {
+          font-size: 45px;
+          font-weight: bold;
+          margin-top: 0; }
+          @media only screen and (max-width: 480px) {
+            #sliderWrap .slideThree .titleWrap h2 {
+              font-size: 36px; } }
+      #sliderWrap .slideThree .ipadWrap {
+        position: absolute;
+        width: 100%;
+        height: calc(77% - 54px);
+        bottom: 0;
+        z-index: -1;
+        
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center center; }
+        @media only screen and (max-width: 480px) {
+          #sliderWrap .slideThree .ipadWrap {
+            bottom: 120px;
+            height: 297px;
+           
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            background-position: center center; }
+   }
+    
+  
+ 
